@@ -1,0 +1,136 @@
+body{
+    /* background-image: url(../images/background.png); */
+    background-color:#ffeedd;
+    /* background-color:blue; */
+    background-size: 245vh 100vh;;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+
+}
+#scribbler
+{
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: xx-large;
+
+}
+#Tag
+{
+    font-family: 'Ubuntu Mono', monospace;
+}
+.bt
+{
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.containerone{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+   
+    
+}
+
+.boxone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 2px solid red; */
+
+    /* border: 0; */
+    border-radius: 5px;
+    
+
+    width: 600px;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-transition-duration: 0.3s;
+    /* transition-duration: 0.3s; */
+    /* -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform; */
+
+}
+.boxone:hover,.boxone:focus,.boxone:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* -webkit-transform: scale(1.1);
+    transform: scale(1.1); */
+}
+.user{
+    display: flex;
+    background-color: white;
+    width: 140px;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+}
+.post{
+    background-color:#e6e6e6;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.innerhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.headone{
+    font-weight: bold;
+    color: #8c8c8c;
+    margin-left: 10px;
+}
+
+.trash{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* margin-bottom: 10px; */
+    
+}
+.username{
+    margin-left: 5px;;
+    margin-right: 5px;
+    color: #8c8c8c;
+    font-weight: 800;
+}
+.exone{
+     position: relative;
+     left: 90%;
+     color: #8c8c8c;
+     margin-bottom: 20px;
+}
+.para{
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+  

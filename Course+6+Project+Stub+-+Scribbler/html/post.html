@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/post.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez|Nunito+Sans|Ubuntu+Mono&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/3e2ca382cc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Sacramento&family=Varela+Round&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="container">
+        
+        <div>
+            <div id='scribbler'>
+                ScriBBler    
+            </div>
+            <div id="Tag">
+                Explore,Imagine,Create
+            </div>
+        </div>
+        <div>
+            <button class="bt" onclick="Signup()">Sign Up</button>
+            <button class="bt" onclick="Sign()">Sign In</button>
+        </div>
+    
+</header>
+<div class="poster">
+     <div>
+         <textarea cols="num" rows="1" readonly id="headone">Everything you shoud know about module and  require in Nodejs</textarea>
+     </div>
+     <div class="postin">
+         <div id="author">Srishti Gupta</div>
+         
+         <div id="edit"><button class="change" onclick="editor()">Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+         </button></div>
+     </div>
+     <div>
+         <textarea class="content" readonly id="contentbox">Built on top of Google Chrome's V8 Engine, Node.js (and its companion framework, Express.js) have come to dominate much of backend development, especially when JavaScript is your language of choice on the server-side. In this edition of "Best of DZone," we're going to take a look into the two frameworks to better understand key pieces of functionality and how they work in tandem to create applications.Before we begin, we'd like need to thank those who were a part of this article. DZone has and continues to be a community powered by contributors like you who are eager and passionate to share what they know with the rest of the world. A user can then update the post title as well as post text. Note that when the post title and post text are in the “editable” mode, there should be a cursor which would enable the user to edit/erase/add any text he/she wants in it. While the post title & text are in the editable mode, the "Edit" button should be replaced by the "Save" button, having the icon named "Save" displayed after the text in the button. Look at the screenshot given below:</textarea>
+     </div>
+     <div id="like">
+         <div>
+            <button class="change" id="likecount" onclick="countlike()"><i class="fa fa-thumbs-up" aria-hidden="true"> <span id="liked">Like</span></i></button>
+         </div>
+         
+         <p id="liker" class="fontcode">be the first one to like this!</p>
+
+     </div>
+     
+     <div class="commentcontainer">
+        
+         <textarea name="" id="commentbox" styles="resize:none" placeholder="Leave a comment..."></textarea>
+         <div><button class="change" id="commentbutton" onclick="commentf()">Comment</button></div>
+         <div class="fontcode" style="font-weight: bold;">All Comments</div>
+         <div id="commentadd" class="fontcode">
+
+         </div>
+     </div>
+     
+</div>
+
+    <script src="../script/post.js"></script>
+</body>
+</html>
