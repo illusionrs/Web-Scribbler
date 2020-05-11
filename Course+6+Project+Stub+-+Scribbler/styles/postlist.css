@@ -126,6 +126,8 @@ body{
      left: 90%;
      color: #8c8c8c;
      margin-bottom: 20px;
+     cursor: pointer;
+
 }
 .para{
     margin-left: 10px;
