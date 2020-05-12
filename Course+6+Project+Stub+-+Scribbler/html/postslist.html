@@ -43,7 +43,7 @@
                     <p class="headone" >‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
                     <span class="trash">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" aria-hidden="true" onclick="exone()"></i>
+                        <i class="fa fa-trash" aria-hidden="true" onclick="Alert.render('postone')"></i>
 
                     </span>
                 </div>
@@ -65,7 +65,7 @@
                     <p class="headone">What is linting and how can it save you time?</p>
                     <span class="trash">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" aria-hidden="true" onclick="extwo()" ></i>
+                        <i class="fa fa-trash" aria-hidden="true" onclick="Alert.render('posttwo')" ></i>
 
                     </span>
                 </div>
@@ -87,7 +87,7 @@
                     <p class="headone">How to Get More Views on Your Tech Blog</p>
                     <span class="trash">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" aria-hidden="true" onclick="exthree()"></i>
+                        <i class="fa fa-trash" aria-hidden="true" onclick="Alert.render('postthree')"></i>
 
                     </span>
                 </div>
@@ -109,7 +109,7 @@
                     <p class="headone">How to write easily describable code</p>
                     <span class="trash">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" aria-hidden="true" onclick="exfour()"></i>
+                        <i class="fa fa-trash" aria-hidden="true" onclick="Alert.render('postfour')"></i>
 
                     </span>
                 </div>
@@ -131,7 +131,7 @@
                     <p class="headone">Everything you should know about ‘module’ & ‘require’ in Node.js</p>
                     <span class="trash">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
-                        <i class="fa fa-trash" aria-hidden="true" onclick="exfive()" ></i>
+                        <i class="fa fa-trash" aria-hidden="true" onclick="Alert.render('postfive')" ></i>
 
                     </span>
                 </div>
@@ -142,6 +142,14 @@
 
                 </span>
             </div>
+        </div>
+    </div>
+    <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+        <div id="dialogboxhead"></div>
+        <div id="buttonbox">
+            <div id="dialogyes"></div>
+            <div id="dialogno"></div>
         </div>
     </div>
     <script src="../script/postlist.js"></script>

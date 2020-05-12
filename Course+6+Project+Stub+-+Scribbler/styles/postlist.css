@@ -134,5 +134,50 @@ body{
     margin-right: 5px;
     font-size: 16px;
 }
+#dialogbox{
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    z-index: 10;
+    top: 40%;
+    left: 40%;
+   
+}
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #000000;
+	width: 100%;
+	z-index: 10;
+}
+#buttonbox{
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#delete{
+   background-color: green;
+   color: white;
+   padding: 10px 30px 10px;
+   border: 0;
+   margin: 20px 5px 5px 5px;
 
+}
+#dialogboxhead{
+    margin: 20px 5px 5px 5px;
+}
+#cancel{
+    background-color:  red;
+   color: white;
+   padding: 10px 30px 10px;
+   border: 0;
+   margin: 20px 5px 5px 5px;
+}
   
