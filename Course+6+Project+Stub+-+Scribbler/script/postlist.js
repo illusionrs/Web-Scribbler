@@ -5,10 +5,15 @@ function post(){
 
 }
 
+
+// this function will take id as para and it will pass to getelements
+// and it willl set to none if user will cancel then it will set alert  box to cancel
+
 function deletefun(){
 
+    //    this will work when user click on trash and it will lead to this function 
        this.render=function(id){
-           console.log(id);
+        //    console.log(id);
 
         var winW = window.innerWidth;
         var winH = window.innerHeight;
@@ -27,6 +32,8 @@ function deletefun(){
 
 
        }
+
+    //    when user click on yes to delete then this function will work. 
 
        this.del=function(id){
         console.log(id.id);

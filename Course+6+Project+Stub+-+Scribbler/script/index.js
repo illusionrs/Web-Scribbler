@@ -1,5 +1,6 @@
 function Signup()
 {
+    //  this form will open a signup page for signup 
     var p='<form>'+
     '<div class="cut">'+
     '<p class="fr"> Get Started</p>'+
@@ -21,16 +22,17 @@ function Signup()
     
 '</form>';
 document.getElementById('del').innerHTML='';
-
+//it will set allpost and create post to none
   document.getElementById('main').innerHTML=p;
 }
 
 function CutOut()
 {
+  // it will cut the form signup or signin
     document.getElementById('main').innerHTML='';
    
     var pr= '<div>'+
-    '<button class="btc">All Posts</button>'+
+    '<button class="btc" onclick="loadPage()">All Posts</button>'+
   '</div>'+
   '<div>'+
       '<button class="btc" onclick="Create()">Create Post</button>'+
@@ -44,6 +46,7 @@ document.getElementById('del').innerHTML=pr;
 
 function Sign()
 {
+  // this is for sign in
     var p='<form id="sign">'+
     '<div class="cut">'+
     '<p class="fr"> Welcome Back!</p>'+
@@ -70,6 +73,7 @@ document.getElementById('del').innerHTML='';
 
 function Create()
 {
+  // this will open form to create posts
   var p='<form id="createone">'+
   '<div class="cut">'+
   '<p id="PYP">Pen Your Post</p>'+
@@ -96,8 +100,8 @@ function Create()
 }
 function loadPage()
 {
-
+    //this will open a page for that post after extending
      window.location="../html/postslist.html";
-    //  window.location="../html/postslist.html";
+    
 
 }

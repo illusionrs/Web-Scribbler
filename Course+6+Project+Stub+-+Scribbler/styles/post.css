@@ -1,14 +1,16 @@
+/* this is for body  */
 body{
-    /* background-image:; */
-    /* background-color:blue; */
+    
     background-size: 245vh 100vh;;
 }
+/* this is for header in which define driect to put elements  */
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
 
 }
+/* it is header word Scribbler */
 #scribbler
 {
     font-family: 'Montez', cursive;
@@ -16,10 +18,13 @@ body{
     font-size: xx-large;
 
 }
+/* this is for tagline of web  */
 #Tag
 {
     font-family: 'Ubuntu Mono', monospace;
 }
+
+/* this is for button signup and sign in  */
 .bt
 {
     background-color: blue;
@@ -33,9 +38,10 @@ body{
 }
 textarea{
      
-    /* width: auto;
-    height: auto; */
+   
 }
+
+/* this is class of div in which the post header and post will be there */
 .poster{
     display: flex;
     flex-direction: column;
@@ -43,18 +49,20 @@ textarea{
     align-items: center;
     width: 220vh;
 }
+
+/* this is class of usename and edit option  */
 .postin{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    /* background-color: red; */
     width: 180vh;
     margin-bottom: 20px;
 
 }
+/* this is headline id which designed here  */
 #headone{
-    /* resize: horizontal; */
+
     border-color: Transparent;   
     width: 190vh;
     font-weight: bolder;
@@ -68,11 +76,13 @@ textarea{
 
     
 }
+/* this is for author name  */
 #author{
     font-family: 'Sacramento', cursive;
     font-size: x-large;
     font-weight: 530;
 }
+/* it is for edit and save button  */
 .change{
     border: 0;
     background-color: #ff3355;
@@ -88,13 +98,12 @@ textarea{
     
  
 }
+
+/* it is for the post area in which and how it will look */
 .content{
+
     width: 180vh;
-    
     border-color: Transparent; 
-    /* margin-left: 5px;
-    /* /* margin-right: 5px;
-    /* resize: none; */
     margin-right: 30px;
     height: 40vh;
     font-family: 'IBM Plex Serif', serif;
@@ -104,6 +113,8 @@ textarea{
 
 
 }
+
+/* this is for like button  */
 #like{
     display: flex;
     flex-direction: column;
@@ -112,11 +123,15 @@ textarea{
     width: 180vh;
 }
 
+/* this is for commend divison */
+
 .commentcontainer{
     width: 180vh;
     align-items: flex-start;
 
 }
+
+/* this is for comment box only  */
 #commentbox{
     width:60vh;
     height: 10vh;
@@ -124,11 +139,11 @@ textarea{
     margin-bottom: 10px;
     
 }
+
+/* it is for after adding comment  */
 #commentadd{
+
     align-items: flex-start;
-    
-    /* border-style: outset;
-    border-color: #b3b3b3; */
     background-color: #cccccc;
     width:66vh;
     height: auto;
@@ -136,13 +151,12 @@ textarea{
     padding-bottom: 10px;
     margin-top: 15px;
 }
-
+/* this is for add comment button  */
 .ctadd{
+
     border: 0;
     background-color: white;
     color: black;
-    /* box-shadow: 5px 10px #888888; */
-    /* border-style: groove; */
     width:60vh;
     height: auto;
     margin-top: 10px;
@@ -153,11 +167,10 @@ textarea{
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* border-width: 7px;
-    border-style: outset;
-    border-color: #b3b3b3; */
+    
 
 }
+/* this is used for font any where  */
 .fontcode{
    font-family:  Sans-serif	;
 }

@@ -1,3 +1,5 @@
+
+/* this class is for div of  two buttons which was made on index page all posts and create posts */
 .contain
 {
     display: flex;
@@ -10,7 +12,7 @@
     text-align: center;
 }
 
-
+/* this class is for buttons which was on mid of post two color it and padding. */
 .btc
 {
     
@@ -24,6 +26,8 @@
 
 }
 
+
+/* this is for the sign in and signup form  */
 form{
     background-color: white;
     display: flex;
@@ -33,6 +37,8 @@ form{
     height: 460px;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+/* this will work on the form which will popup */
 #main
 {
     display: flex;
@@ -40,6 +46,8 @@ form{
     justify-content: center;
     align-items: center;
 }
+
+/* this class is for cross button which will close the form */
 .cut
 {
     display: flex;
@@ -47,6 +55,7 @@ form{
     justify-content: space-between;
     align-items: center;
 }
+/* this is for input block */
 input
 {
     margin-top: 5px;
@@ -59,12 +68,14 @@ input
     height: 25px;
 
 }
+/* this class is for title word which will be post form ,it used everywhere we need to use this margin */
 .fr
 {
    
     margin-left: 15px;
     margin-right: 15px;
 }
+/* this fbt id is of signup button /sign in */
 #fbt{
     margin-top: 16px;
     margin-bottom: 25px;
@@ -78,6 +89,7 @@ input
     font-family: 'Nunito Sans', sans-serif;
 
 }
+/* this is for cross button which will close form of signup page/sign in  */
 #cross
 {
     margin-left: 15px;
@@ -85,6 +97,7 @@ input
     color: #8c8c8c;
     size: 20px;
 }
+/* this is the id of form which will open for sign in or sign up  */
 #sign
 {
     background-color: white;
@@ -95,6 +108,7 @@ input
     height: 360px;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 
 #create
 {
@@ -107,6 +121,8 @@ input
     font-family: 'Nunito Sans', sans-serif;
     
 }
+/* this is for button which will create post on click */
+
 #fbt1
 {
     margin-top: 16px;
@@ -119,12 +135,9 @@ input
     color: white;
     border: 0;
     font: bold;
-    /* font-family: 'Nunito Sans', sans-serif; */
-    /* position: absolute;
-    left: 50%;
-    top: 60%; */
     font-weight: bold;
 }
+/* this is for the text area of the post in which we will write  */
 #tar
 {
     margin-top: 5px;
@@ -138,6 +151,7 @@ input
     height: 230px;
     
 }
+/* this is of the form which will come when for the post create */
 
 #createone
 {
@@ -150,13 +164,14 @@ input
     font-family: 'Nunito Sans', sans-serif;
     padding-top: initial;
 }
+/* this is for div block of button of create post  */
 #shift{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+/* this if for the PEN YOUR POST  */
 #PYP{
     margin-left: 15px;
     margin-right: 15px;
