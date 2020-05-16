@@ -101,7 +101,7 @@ function Create()
 function loadPage()
 {
     //this will open a page for that post after extending
-     window.location="../html/postslist.html";
+     window.location="html/postslist.html";
     
 
 }
